@@ -1,0 +1,13 @@
+.banner{
+margin:auto;
+}
+.example-card{
+      background-color: white;
+}
+.example-card:hover{
+   box-shadow:10px 10px 10px #b0bec5;
+   transform: scale(1.1);
+}
+.carddiv{
+    padding: 2%;
+}
