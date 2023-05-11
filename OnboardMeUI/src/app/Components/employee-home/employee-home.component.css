@@ -1,0 +1,29 @@
+
+.horizontal{
+    background: linear-gradient(rgb(206, 206, 234),rgb(159, 159, 238),rgb(66, 66, 151));
+    height: 8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    font-size: 20px;
+    text-align: left;
+}
+li{
+    padding-bottom: 0.8em;
+}
+.rowDiv{
+    height: 100%;
+}
+.vertical1{
+    background-color:rgb(159, 159, 238);
+    margin-top: 2px;
+}
+.vertical2{
+    background-color: white;
+    margin-top: 2px;
+}
+.vertical3{
+    background-color:rgb(159, 159, 238);
+    margin-top: 2px;
+}
