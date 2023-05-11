@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboaedMeAPI\\OnboaedMeAPI.csproj": {}
+    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboaedMeAPI\\OnboaedMeAPI.csproj": {
+    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboaedMeAPI\\OnboaedMeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
         "projectName": "OnboaedMeAPI",
-        "projectPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboaedMeAPI\\OnboaedMeAPI.csproj",
+        "projectPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
         "packagesPath": "C:\\Users\\patel.piyush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboaedMeAPI\\obj\\",
+        "outputPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
