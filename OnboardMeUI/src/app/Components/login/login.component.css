@@ -1,24 +1,4 @@
-.example-card {  
-    /* margin-top: 10%;
-    margin-bottom: auto; */
-    margin:2%;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 400px;
-  }
-  .cont{
-    display:flex;
-    justify-content: center;
 
-  }
-  
-  mat-card-header {
-    background-image: url('https://img.freepik.com/premium-vector/avatar-profile-icon_188544-4755.jpg?w=740');
-    background-size: cover;
-    height: 150px;
-    width: 200px;
-  } */
  img{
  
   width: 100%;

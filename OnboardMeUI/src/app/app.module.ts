@@ -33,6 +33,7 @@ import { dematerialize } from 'rxjs';
     AddEmployeeComponent,
     LoginComponent,
     PreOnboardFormComponent,
+    PostOnboardingComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +42,7 @@ import { dematerialize } from 'rxjs';
     MaterialModule,
     ReactiveFormsModule
     ,MatFormFieldModule,MatInputModule,MatIconModule,MatStepperModule,FormsModule,ReactiveFormsModule,
-    MatCheckboxModule,MatProgressBarModule
+    MatCheckboxModule,MatProgressBarModule,MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
