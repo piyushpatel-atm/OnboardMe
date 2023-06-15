@@ -1,0 +1,30 @@
+<form [formGroup]="documentForm">
+    <div class="row">
+        <div class="innerContent">
+            <h2>Personal Photo</h2><br>
+            <input type="file" (change)="onPhotoFileSelected($event)" />          
+            <button (click)="uploadPhoto()">Upload</button>
+            <img src="{{photoImageUrl}}">
+            <mat-icon *ngIf="upPhoto">check_circle</mat-icon>
+         
+        </div>
+    </div>
+    <div class="row">
+        <div class="innerContent">
+            <h2>AadharCard</h2><br>
+            <input type="file" (change)="onAadharFileSelected($event)" />
+            <button (click)="uploadAadhar()">Upload</button>
+            <img src="{{adharImageUrl}}" >
+            <mat-icon *ngIf="upAadhar">check_circle</mat-icon>
+        </div>
+    </div>
+    <div class="row">
+        <div class="innerContent">
+            <h2>Passport</h2><br>
+            <input type="file" (change)="onPassportFileSelected($event)" />
+            <button (click)="uploadPassport()">Upload</button>
+            <img src="{{passportImageUrl}}" >
+            <mat-icon *ngIf="upPassport">check_circle</mat-icon>
+        </div>
+    </div>
+</form>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
 import { MaterialModule } from './materialmodule';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -19,6 +20,8 @@ import { PreOnboardFormComponent } from './Components/pre-onboard-form/pre-onboa
 import {MatStepperModule} from '@angular/material/stepper';
 import { FormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { PostOnboardingComponent } from './Components/post-onboarding/post-onboarding.component';
+import { dematerialize } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     EmployeeHomeComponent,
     AddEmployeeComponent,
     LoginComponent,
-    PreOnboardFormComponent
+    PreOnboardFormComponent,
+    PostOnboardingComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MaterialModule,
     ReactiveFormsModule
     ,MatFormFieldModule,MatInputModule,MatIconModule,MatStepperModule,FormsModule,ReactiveFormsModule,
-    MatCheckboxModule
+    MatCheckboxModule,MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

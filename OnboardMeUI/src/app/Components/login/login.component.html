@@ -1,43 +1,33 @@
-<div class="cont">
+<div class="outer-card">
+    <img src="https://www.yash.com/wp-content/themes/html5blank-stable/images/home/knowMoreHome.webp"><br>
+    <span>Welcome. To The Yash Technologies</span>
+    <div class="search-box">
+        <h2>job search</h2>
+    </div>
+</div>
+<div class="login-box">
+    <h1>Login</h1>
+    <p>
+        To access your account, please identify yourself by providing the information requested in the field below, then
+        click "Login".
+        If you are not registered yet, click "New User" and follow the instructions to create an account.
+    </p>
+    <br>
+    <i>Mandatory fields are marked with an asterisk</i><br>
+    Input for username
+    <label>User Name</label><br>
+    <input type="text" required [(ngModel)]="userName"><br>
 
-    <mat-card class="example-card">
-        <mat-card-header>
-          
-        </mat-card-header>
-    
-        <mat-card-content>
-         <form>
-            <div class="row">
-                <div class="col text-center p-2 mb-3 bg-light">
-                    <span class="fs-3">Login</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-3">
-                    <label for="username" class="form-label">User Name</label>
-                    <input type="text" class="form-control" id="username">
-                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mb-3">
-                    
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
-                   
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-6 offset-3 mb-3">
-                    <div class="d-grid">
-                   <button type="submit" class="btn btn-primary">Login</button>
-                    </div>
-                </div>           
-            </div>
-         </form>
-        
-        </mat-card-content>
-         
-      </mat-card>
-      </div>
+
+    <label>Password</label><br>
+    <input type="password" [(ngModel)]="password">
+    <div class="row" style="margin-top: 1%; color: blue;">
+        <a>Forgot your user name</a><br>
+        <a>Forgot your password</a>
+    </div>
+    <div class="row">
+        <button mat-raised-button (click)="onSubmit()">Login</button>
+        <button mat-raised-button>New User</button>
+    </div>
+
+</div>
