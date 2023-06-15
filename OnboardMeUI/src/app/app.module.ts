@@ -33,7 +33,6 @@ import { dematerialize } from 'rxjs';
     AddEmployeeComponent,
     LoginComponent,
     PreOnboardFormComponent,
-    PostOnboardingComponent
   ],
   imports: [
     BrowserModule,
