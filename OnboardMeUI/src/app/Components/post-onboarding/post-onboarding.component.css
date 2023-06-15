@@ -1,0 +1,20 @@
+.row{
+ margin: 20px;
+}
+.innerContent{
+    border: 2px solid gray;
+}
+form{
+    border: 2px solid gray;
+    margin: 2%;
+}
+img{
+    height: 120px;
+    width: 120px; 
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 15%;
+}
+.mat-icon{
+color: green;
+}

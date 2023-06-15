@@ -6,8 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee-home.component.css']
 })
 export class EmployeeHomeComponent {
-isVisiable:boolean=false;
+isPreVisiable:boolean=false;
+isPostVisible:boolean=false;
 preForm(){
-  this.isVisiable = true;
+  this.isPreVisiable = true;
+  this.isPostVisible=false
+}
+postForm(){
+  this.isPostVisible=true;
+  this.isPreVisiable=false;
 }
 }
