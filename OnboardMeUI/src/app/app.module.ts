@@ -22,7 +22,7 @@ import { PreOnboardFormComponent } from './Components/pre-onboard-form/pre-onboa
     EmployeeHomeComponent,
     AddEmployeeComponent,
     LoginComponent,
-    PreOnboardFormComponent
+    PreOnboardFormComponent,
   ],
   imports: [
     BrowserModule,

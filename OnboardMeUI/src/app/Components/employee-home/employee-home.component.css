@@ -25,3 +25,6 @@ ul{
     background-color:rgb(159, 159, 238);
     margin-top: 2px;
 }
+.mat-mdc-button{
+    color: aqua;
+}
