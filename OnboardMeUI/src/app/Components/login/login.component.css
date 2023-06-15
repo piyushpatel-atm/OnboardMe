@@ -1,6 +1,7 @@
 .example-card {  
-    margin-top: 10%;
-    margin-bottom: auto;
+    /* margin-top: 10%;
+    margin-bottom: auto; */
+    margin:2%;
     justify-content: center;
     align-items: center;
     background-color: white;
