@@ -1,13 +1,65 @@
 .banner{
-margin:auto;
-}
-.example-card{
-      background-color: white;
-}
-.example-card:hover{
-   box-shadow:10px 10px 10px #b0bec5;
-   transform: scale(1.1);
-}
-.carddiv{
-    padding: 2%;
-}
+
+    margin: auto;
+    
+    height: 460px;
+    
+    background-image: url("src/assets/LOGO.png");
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    border: 1px solid gainsboro;
+    
+    }
+    
+    .banner .mat-mdc-icon-button{
+    
+        font-family:'Roboto',serif;
+    
+        color:black;
+    
+        background-color: rgb(208, 239, 247);
+    
+        width: 17%;
+    
+        margin-top: 26%;
+    
+        margin-left: 10%;
+    
+        border-radius: 7px;
+    
+        box-shadow:10px 10px 10px #b0bec5;
+    
+        padding: 0px;
+    
+    }
+    
+    .banner .mat-mdc-icon-button .mat-icon{
+    
+        padding-top: 2%;
+    
+        padding-left: 2%;
+    
+    }
+    
+    .example-card{
+    
+          background-color: white;
+    
+    }
+    
+    .example-card:hover{
+    
+       box-shadow:10px 10px 10px #b0bec5;
+    
+       transform: scale(1.1);
+    
+    }
+    
+    .carddiv{
+    
+        padding: 2%;
+    
+    }
