@@ -5,6 +5,7 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 import { AddEmployeeComponent } from './Components/add-employee/add-employee.component';
 import { EmployeeHomeComponent } from './Components/employee-home/employee-home.component';
 import { LoginComponent } from './Components/login/login.component';
+import { RegisterComponent } from './Components/register/register.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,9 @@ const routes: Routes = [
 {
 
   path:"PreForm",component:PreOnboardFormComponent
+},
+{
+  path:"reg",component:RegisterComponent
 }
 ];
 
