@@ -9,6 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./post-onboarding.component.css']
 })
 export class PostOnboardingComponent implements OnInit{
+ files!:FileList;
  formData=new FormData();
  selectedPhotoFile:File|null=null;
  photoImageUrl:string|null=null;
