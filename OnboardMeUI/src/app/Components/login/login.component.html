@@ -1,6 +1,6 @@
 <div class="outer-card">
     <img src="https://www.yash.com/wp-content/themes/html5blank-stable/images/home/knowMoreHome.webp"><br>
-    <span>Welcome. To The Yash Technologies</span>
+    <span>Welcome To The Yash Technologies</span>
     <div class="search-box">
         <h2>job search</h2>
     </div>
@@ -12,11 +12,9 @@
         click "Login".
         If you are not registered yet, click "New User" and follow the instructions to create an account.
     </p>
-    <br>
     <i>Mandatory fields are marked with an asterisk</i><br>
     <label>User Name</label><br>
     <input type="text" required [(ngModel)]="userName"><br>
-
 
     <label>Password</label><br>
     <input type="password" [(ngModel)]="password">
@@ -26,7 +24,7 @@
     </div>
     <div class="row">
         <button mat-raised-button (click)="onSubmit()">Login</button>
-        <button mat-raised-button>New User</button>
+        <button mat-raised-button routerLink="/reg">New User</button>
     </div>
 
 </div>

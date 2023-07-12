@@ -22,6 +22,7 @@ import { FormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { PostOnboardingComponent } from './Components/post-onboarding/post-onboarding.component';
 import { dematerialize } from 'rxjs';
+import { RegisterComponent } from './Components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { dematerialize } from 'rxjs';
     AddEmployeeComponent,
     LoginComponent,
     PreOnboardFormComponent,
-    PostOnboardingComponent
+    PostOnboardingComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
