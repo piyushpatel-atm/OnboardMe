@@ -1,3 +1,6 @@
+using OnboaedMeAPI.Context;
+using OnboaedMeAPI.Repository;
+
 namespace OnboaedMeAPI
 {
     public class Program
@@ -9,9 +12,11 @@ namespace OnboaedMeAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddScoped<DbContext>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+          
 
             var app = builder.Build();
 

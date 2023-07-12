@@ -7,5 +7,15 @@ namespace OnboaedMeAPI.Controllers
     [ApiController]
     public class OnboardMeController : ControllerBase
     {
+        public OnboardMeController()
+        {
+
+        }
+
+        [HttpPost]
+        public IActionResult SaveEmployeeDocuments(IFormFile docfile)
+        {
+            return Ok();
+        }
     }
 }
