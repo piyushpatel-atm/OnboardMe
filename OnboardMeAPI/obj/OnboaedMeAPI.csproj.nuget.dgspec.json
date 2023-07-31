@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {}
+    "C:\\Users\\yasir.khan\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {
+    "C:\\Users\\yasir.khan\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\yasir.khan\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
         "projectName": "OnboaedMeAPI",
-        "projectPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
-        "packagesPath": "C:\\Users\\patel.piyush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patel.piyush\\Desktop\\OnboardMe\\OnboardMeAPI\\obj\\",
+        "projectPath": "C:\\Users\\yasir.khan\\Desktop\\OnboardMe\\OnboardMeAPI\\OnboaedMeAPI.csproj",
+        "packagesPath": "C:\\Users\\yasir.khan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasir.khan\\Desktop\\OnboardMe\\OnboardMeAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patel.piyush\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\yasir.khan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +43,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.138, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

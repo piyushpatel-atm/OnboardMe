@@ -5,6 +5,7 @@ namespace OnboaedMeAPI.Repository
     public interface IService
     {
         void RegisterNewUser(User UserData);
-        Boolean LoginUser(User UserData);
+        bool LoginUser(User UserData);
+        bool IsEmailAvailable(string email);
     }
 }
