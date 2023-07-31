@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OnboaedMeAPI.Models;
+using OnboaedMeAPI.Repository;
+using System.Net.Mail;
 
 namespace OnboaedMeAPI.Controllers
 {
@@ -7,15 +10,31 @@ namespace OnboaedMeAPI.Controllers
     [ApiController]
     public class OnboardMeController : ControllerBase
     {
-        public OnboardMeController()
+        private readonly IService _service;
+      
+        public OnboardMeController(IService service)
         {
-
+            _service = service;
+           
         }
 
-        [HttpPost]
-        public IActionResult SaveEmployeeDocuments(IFormFile docfile)
+        [HttpPost("Register")]
+        public IActionResult RegisterUser(User obj)
         {
-            return Ok();
+            try
+            {
+                if (!_service.IsEmailAvailable(obj.Email))
+                {
+                    return Ok("Email is already exist!");
+                }
+                _service.RegisterNewUser(obj);
+                return Ok("User Register");
+            }
+            catch
+            {
+                return BadRequest("Not Register");
+            }
+           
         }
     }
 }
