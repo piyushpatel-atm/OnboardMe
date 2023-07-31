@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { AppservicesService } from 'src/app/services/appservices.service';
 
 @Component({
   selector: 'app-login',
@@ -6,9 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  userName:string="";
-  password:string="";
-  onSubmit(){
-    console.log(this.userName,this.password);
+  constructor(public fb: FormBuilder, private service: AppservicesService) { }
+  loginForm!:FormGroup;
+  login(){
+    
   }
 }
