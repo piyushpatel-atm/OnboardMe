@@ -23,6 +23,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { PostOnboardingComponent } from './Components/post-onboarding/post-onboarding.component';
 import { dematerialize } from 'rxjs';
 import { RegisterComponent } from './Components/register/register.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { RegisterComponent } from './Components/register/register.component';
     MaterialModule,
     ReactiveFormsModule
     ,MatFormFieldModule,MatInputModule,MatIconModule,MatStepperModule,FormsModule,ReactiveFormsModule,
-    MatCheckboxModule,MatProgressBarModule,MatCardModule
+    MatCheckboxModule,MatProgressBarModule,MatCardModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,16 +14,16 @@
     </p>
     <i>Mandatory fields are marked with an asterisk</i><br>
     <label>User Name</label><br>
-    <input type="text" required [(ngModel)]="userName"><br>
+    <input type="text" required><br>
 
     <label>Password</label><br>
-    <input type="password" [(ngModel)]="password">
+    <input type="password">
     <div class="row" style="margin-top: 1%; color: blue;">
         <a>Forgot your user name</a><br>
         <a>Forgot your password</a>
     </div>
     <div class="row">
-        <button mat-raised-button (click)="onSubmit()">Login</button>
+        <button mat-raised-button (click)="login()">Login</button>
         <button mat-raised-button routerLink="/reg">New User</button>
     </div>
 
